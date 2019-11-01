@@ -1,0 +1,29 @@
+{
+  "name": "BKGrove",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "laravel-mix": "^2.1.11",
+    "scrollmagic": "^2.0.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "bowser": "^1.9.3",
+    "gsap": "^2.0.1",
+    "imports-loader": "^0.8.0",
+    "npm": "^6.2.0",
+    "slick-carousel": "^1.8.1",
+  }
+}
